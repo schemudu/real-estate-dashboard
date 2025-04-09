@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
-import geopandas as gpd
+
 
 def plot_income_vs_home_price(data: pd.DataFrame):
     """ Scatter plot of Median Income vs. Median Home Price """
